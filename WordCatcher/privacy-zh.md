@@ -1,10 +1,8 @@
 ---
 layout: default
-title: 隐私政策 (中文)
+title: 隐私政策
 permalink: /privacy-zh/
 ---
-
-# 隐私政策 (中文)
 # 隐私政策
 
 最后更新日期：2025年7月24日
