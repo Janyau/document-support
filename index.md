@@ -1,9 +1,9 @@
 ---
 layout: default
-title: VoCatcher Docs
+title: Vocatcher Docs
 ---
 
-# VoCatcher Documents
+# Vocatcher Documents
 
 - [Agreement](/agreement-en/)
 - [Privacy Policy](/privacy-en/)
