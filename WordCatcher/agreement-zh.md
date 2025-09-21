@@ -1,3 +1,8 @@
+---
+layout: default
+title: 用户协议
+permalink: /agreement-zh/
+---
 # 用户协议
 
 **最后更新日期：2025年7月24日**
