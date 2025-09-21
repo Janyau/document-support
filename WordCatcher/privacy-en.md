@@ -2,7 +2,7 @@
 
 **Last updated: July 24, 2025**
 
-Thank you for using *Word Catcher*! We take your privacy seriously and are committed to protecting your personal information. Please read the following privacy policy to understand how we collect, use, and store information that may be involved during your use of this app.
+Thank you for using *Vocatcher*! We take your privacy seriously and are committed to protecting your personal information. Please read the following privacy policy to understand how we collect, use, and store information that may be involved during your use of this app.
 
 By choosing to use our service, you agree to the collection and use of information in accordance with this policy. We do **not** actively collect or upload any personally identifiable information. All data processing is performed **locally** on your device. Unless otherwise stated in this policy, we do not use your information for any other purpose or share it with third parties.
 
