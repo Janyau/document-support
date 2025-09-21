@@ -1,3 +1,11 @@
+---
+layout: default
+title: Privacy Policy (EN)
+permalink: /privacy-en/
+---
+
+# Privacy Policy (EN)
+
 # Privacy Policy
 
 **Last updated: July 24, 2025**
