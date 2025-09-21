@@ -1,3 +1,8 @@
+---
+layout: default
+title: Agreement
+permalink: /agreement-en/
+---
 # User Agreement
 
 **Last Updated: July 24, 2025**
