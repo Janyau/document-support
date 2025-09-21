@@ -2,11 +2,11 @@
 
 **Last Updated: July 24, 2025**
 
-This User Agreement ("Agreement") is a legal agreement between you (an individual or entity, hereinafter referred to as "User") and the developer of this application regarding the use, rights, obligations, and limitations of liability related to the "Word Catcher" software ("the App"). Please read this Agreement carefully before using the App. By downloading, installing, purchasing, or using the App, you acknowledge that you have read, understood, and agreed to be bound by the terms of this Agreement.
+This User Agreement ("Agreement") is a legal agreement between you (an individual or entity, hereinafter referred to as "User") and the developer of this application regarding the use, rights, obligations, and limitations of liability related to the "Vocatcher" software ("the App"). Please read this Agreement carefully before using the App. By downloading, installing, purchasing, or using the App, you acknowledge that you have read, understood, and agreed to be bound by the terms of this Agreement.
 
 ## 1. Description of the App
 
-"Word Catcher" is a local vocabulary utility running on macOS with the following features:
+"Vocatcher" is a local vocabulary utility running on macOS with the following features:
 
 - Quickly retrieve definitions of words on screen via three-finger lookup + keyboard shortcut;
 - Use the built-in macOS Dictionary without requiring internet access;
