@@ -1,3 +1,10 @@
+---
+layout: default
+title: Agreement (EN)
+---
+
+# Agreement (EN)
+
 # User Agreement
 
 **Last Updated: July 24, 2025**
