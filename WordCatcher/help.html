@@ -1,0 +1,272 @@
+
+<html lang="en">
+    <head>
+        <title>Vocatcher User Guide</title>
+        <meta name="description" content="Title page" />
+        <meta name="robots" content="index, anchors" />
+        <style>
+            /* 定义全局CSS变量 */
+            :root {
+                /* 颜色变量 */
+                --toggle-background-color: #fafafa;
+            }
+            .container {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                line-height: 1.6;
+                max-width: 1000px;
+                margin: 0 auto;
+                padding: 20px;
+                color: #333;
+            }
+            .headTitle {
+                display: flex;
+                align-items: center;
+            }
+            .headTitle h1 {
+                margin: 0; /* 关键：移除 h1 的默认外边距 */
+                padding-left: 20px;
+            }
+            .section-divider {
+                height: 1px;
+                background: #f0f0f0;
+                margin: 20px 0;
+                border: none;
+            }
+            li {
+                margin: 10px 0;
+            }
+
+            /* toggle button */
+            .image-toggle {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: var(--toggle-background-color);
+                padding: 10px 0;
+                width: 190px;
+                border-radius: 8px;
+                cursor: pointer;
+                user-select: none;
+            }
+            
+            .toggle-icon {
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+                transition: transform 0.3s;
+            }
+            
+            .image-content {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease-out;
+            }
+            
+            .image-content.expanded {
+                max-height: 1000px;
+            }
+        </style>
+        <script>
+            function toggleImage(button, id) {
+                const container = document.getElementById(id);
+                const content = container.querySelector('.image-content');
+                const icon = button.querySelector('.toggle-icon');
+                content.classList.toggle('expanded');
+                
+                if (content.classList.contains('expanded')) {
+                    icon.src = '../expand_less.png';
+                } else {
+                    icon.src = '../expand_more.png';
+                }
+            }
+            </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="headTitle">
+                <img src="./images/word_catcher.png" width=80px height=80px />
+                <h1>Vocatcher User Guide</h1>
+            </div>
+
+            <p>With Vocatcher on your Mac, you can easily</p>
+            <ul>
+                <li>Get definitions of words in macOS's built-in dictionary or external MDX dictionary</li>
+                <li>Save the words locally via shortcut keys</li>
+                <li>Review words</li>
+                <li>Manage words</li>
+            </ul>
+
+            <p>Currently, only a few macOS's built-in dictionaries are compatible</p>
+            <ul>
+                <li>Oxford Dictionary of English (English (UK))</li>
+                <li>New Oxford American Dictionary (English (US))</li>
+                <li>牛津英汉汉英词典 (Chinese, Simplified-English)</li>
+            </ul>
+
+            <p>There are no restrictions on external custom MDX dictionaries</p>
+
+            <!-- Getting Started -->
+            <hr class="section-divider">
+
+            <h2>Getting Started</h2>
+            <ul>
+                <li>Set the source of the words</li>
+                <div class="image-toggle" onclick="toggleImage(this, 'container-dictionary-settings')">
+                    <img src="./images/expand_more.png" class="toggle-icon">
+                </div>
+                <div id="container-dictionary-settings">
+                    <div class="image-content">
+                        <img src="./images/dictionary-settings.png"  width="500px">
+                    </div>
+                </div>
+                
+                <li>Set up your custom hotkey in the Settings tab</li>
+                <div class="image-toggle" onclick="toggleImage(this, 'container-custom-hotkey')">
+                    <img src="./images/expand_more.png" class="toggle-icon">
+                </div>
+                <div id="container-custom-hotkey">
+                    <div class="image-content">
+                        <img src="./images/custom-hotkey.png" width="950px">
+                    </div>
+                </div>
+
+                <li>Maybe set up your custom MDX in the Settings tab(optional)</li>
+                <div class="image-toggle" onclick="toggleImage(this, 'container-custom-mdx')">
+                    <img src="./images/expand_more.png" class="toggle-icon">
+                </div>
+                <div id="container-custom-mdx">
+                    <div class="image-content">
+                        <img src="./images/custom-dictionary.png" width="950px">
+                    </div>
+                </div>
+
+                <li>Grant Screen Recording Permission when prompted</li>
+                <div class="image-toggle" onclick="toggleImage(this, 'container-recording-permission')">
+                    <img src="./images/expand_more.png" class="toggle-icon">
+                </div>
+                <div id="container-recording-permission">
+                    <div class="image-content">
+                        <img src="./images/recording-permission.png"  width="250px">
+                    </div>
+                </div>
+            </ul>
+            
+            <!-- Main Interface -->
+            <hr class="section-divider">
+
+            <h2>Main Interface</h2>
+            <p>The app features four main tabs at the bottom.</p>
+
+            <!-- 1. Input Tab -->
+            <h3>1. Input Tab</h3>
+            <P>This is where you add new words to your vocabulary.</P>
+            <strong>Manual Input:</strong>
+            <ul>
+                <li>Type or paste a word in the text field</li>
+                <li>Press Return to look up the definition</li>
+                <li>The word is automatically saved</li>
+            </ul>
+
+            <strong>Quick Capture (Recommended):</strong>
+            <ul>
+                <li>Look up a word in macOS's built-in dictionary via three-finger gesture</li>
+                <li>Press your custom hotkey customized in the settings</li>
+                <li>The word will be automatically captured, looked up, and saved</li>
+            </ul>
+            <div class="image-toggle" onclick="toggleImage(this, 'container-input')">
+                <img src="./images/expand_more.png" class="toggle-icon">
+            </div>
+            <div id="container-input">
+                <div class="image-content">
+                    <img src="./images/input.png" width="950px">
+                </div>
+            </div>
+
+            <hr class="section-divider">
+
+            <!-- 2. Review Tab -->
+            <h3>2. Review Tab</h3>
+            <P>Practice and reinforce your vocabulary using spaced repetition.</P>
+            <strong>Review Interface:</strong>
+            <ul>
+                <li>Shows one word at a time on a card</li>
+                <li>Tap the card to flip it and see the definition</li>
+                <li>Use "Got It" or "Don't Know" buttons to rate your knowledge</li>
+            </ul>
+
+            <strong>Review Statistics:</strong>
+            <ul>
+                <li>Due Today: Number of words scheduled for review</li>
+                <li>Reviewed: Words you've already reviewed today</li>
+                <li>Accuracy: Your overall review accuracy percentage</li>
+            </ul>
+            <div class="image-toggle" onclick="toggleImage(this, 'container-review')">
+                <img src="./images/expand_more.png" class="toggle-icon">
+            </div>
+            <div id="container-review">
+                <div class="image-content">
+                    <img src="./images/review.png" width="950px">
+                </div>
+            </div>
+
+            <hr class="section-divider">
+
+            <!-- 3. Management Tab -->
+            <h3>3. Management Tab</h3>
+            <P>Organize and manage your vocabulary collection.</P>
+            <strong>Search and Filter:</strong>
+            <ul>
+                <li>Use the search bar to find specific words</li>
+                <li>Sort by alphabetical order (A-Z or Z-A)</li>
+                <li>Sort by date added (newest or oldest)</li>
+            </ul>
+
+            <strong>Word Actions:</strong>
+            <ul>
+                <li>Edit: Modify word spelling</li>
+                <li>Delete: Remove words from your collection</li>
+            </ul>
+
+            <strong>Refresh Operations:</strong>
+            <ul>
+                <li>Refresh the page when needed</li>
+            </ul>
+            <div class="image-toggle" onclick="toggleImage(this, 'container-management')">
+                <img src="./images/expand_more.png" class="toggle-icon">
+            </div>
+            <div id="container-management">
+                <div class="image-content">
+                    <img src="./images/management.png" width="950px">
+                </div>
+            </div>
+
+            <hr class="section-divider">
+
+            <!-- 4. Settings Tab -->
+            <h3>4. Settings Tab</h3>
+            <P>Customize your Vocatcher experience.</P>
+            <strong>General Settings:</strong>
+            <ul>
+                <li>Quick Save Hotkey: Set your preferred keyboard shortcut</li>
+                <li>Dictionary Management: import custom MDX dictionaries</li>
+                <li>Add Sound Effect: Enable audio feedback for actions</li>
+                <li>Daily Review Goal: Set your target number of daily reviews</li>
+            </ul>
+            <div class="image-toggle" onclick="toggleImage(this, 'container-settings')">
+                <img src="./images/expand_more.png" class="toggle-icon">
+            </div>
+            <div id="container-settings">
+                <div class="image-content">
+                    <img src="./images/settings.png"  width="950px">
+                </div>
+            </div>
+
+            <!-- <h2>Here are some topics</h2>
+            <ul>
+                <li><a href="getting_started.html">Topic One</a></li>
+                <li><a href="features.html">Topic Two</a></li>
+            </ul> -->
+        </div>
+    </body>
+</html>
+
