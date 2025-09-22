@@ -40,4 +40,4 @@ permalink: /privacy-zh/
 ## 联系方式
 如果您对隐私政策有任何疑问或建议，欢迎通过以下方式联系我们：
 
-**邮箱：** janyaugoo@gmail.com  
+**邮箱：** wordcatcher@163.com  

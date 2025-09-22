@@ -15,6 +15,7 @@ This User Agreement ("Agreement") is a legal agreement between you (an individua
 
 - Quickly retrieve definitions of words on screen via three-finger lookup + keyboard shortcut;
 - Use the built-in macOS Dictionary without requiring internet access;
+- You can import external MDX dictionaries by yourself;
 - Simple flashcard feature to aid memory;
 - Manage word entries including search, view, edit, and delete;
 - Some advanced features can be unlocked via one-time in-app purchase.
@@ -63,4 +64,4 @@ This Agreement shall be governed by the laws of the People’s Republic of China
 
 If you have any questions, suggestions, or complaints during your use of the App, please feel free to contact us at:
 
-**Email:** janyaugoo@gmail.com
+**Email:** wordcatcher@163.com

@@ -43,4 +43,4 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 ## Contact Us
 If you have any questions or suggestions regarding this Privacy Policy, feel free to contact us at:
 
-**Email:** janyaugoo@gmail.com
+**Email:** wordcatcher@163.com
