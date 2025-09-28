@@ -130,6 +130,17 @@
                     </div>
                 </div>
 
+                <li>You can set the Text Recognition Language in the Settings tab (default is English)</li>
+                <div>This is required to correctly recognize words selected by the three-finger gesture.</div>
+                <div class="image-toggle" onclick="toggleImage(this, 'container-text-recognition-language')">
+                    <img src="./images/expand_more.png" class="toggle-icon">
+                </div>
+                <div id="container-text-recognition-language">
+                    <div class="image-content">
+                        <img src="./images/text-recognition-language.png" width="950px">
+                    </div>
+                </div>
+
                 <li>Maybe set up your custom MDX in the Settings tab(optional)</li>
                 <div class="image-toggle" onclick="toggleImage(this, 'container-custom-mdx')">
                     <img src="./images/expand_more.png" class="toggle-icon">
@@ -249,6 +260,7 @@
             <ul>
                 <li>Quick Save Hotkey: Set your preferred keyboard shortcut</li>
                 <li>Dictionary Management: import custom MDX dictionaries</li>
+                <li>Text Recognition Language: used for recognizing words selected by the three-finger gesture</li>
                 <li>Add Sound Effect: Enable audio feedback for actions</li>
                 <li>Daily Review Goal: Set your target number of daily reviews</li>
             </ul>
